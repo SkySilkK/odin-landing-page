@@ -68,10 +68,24 @@ a {
   margin-left: 1rem;
 }
 
-.randominfo{
+.randominfo {
+  display:flex;
   font-size: 2.25rem;
   font-weight: 900;
   color: #1F2937;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.randominfotext {
+  display: flex;
+  justify-content: center;
+  margin-left: 22rem;
+  margin-right: 22rem;
+  margin-bottom: 6rem;
+}
+
+.firstboxy{
 }
 
 .quotesection{
@@ -79,10 +93,21 @@ a {
 }
 
 .abox {
-  height: 6.25rem;
-  width: 6.25rem;
-  border: 3px solid #3882F6;
+  height: 9.50rem;
+  width: 9.50rem;
+  border: 4px solid #3882F6;
   border-radius: 0.75rem;
+}
+
+.firstboxy > p,
+.secondboxy > p,
+.thirdboxy > p,
+.fourthboxy > p {
+  width: 9.75rem;
+  word-wrap: break-word;
+  padding-right: 3rem;
+  color: #616a76;
+  padding-top: 0.25rem;
 }
 
 .quotetext{
