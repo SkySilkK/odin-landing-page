@@ -78,6 +78,13 @@ a {
   background-color: #E5E7EB;
 }
 
+.abox {
+  height: 6.25rem;
+  width: 6.25rem;
+  border: 3px solid #3882F6;
+  border-radius: 0.75rem;
+}
+
 .quotetext{
   font-size: 2.25rem;
   color: #1F2937;
