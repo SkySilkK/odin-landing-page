@@ -42,14 +42,30 @@ h3 {
   border-radius: 0.5rem;
 }
 
+.herobutton{
+  margin-top: 0.75rem;
+}
+
 .herosecondarytext{
   color: #E5E7EB;
   font-size: 1.125rem;
+  margin-top: 0.25rem;
+}
+
+.insidehero{
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  display:flex;
+}
+
+.secondparthero{
+  margin-left: 2rem;
 }
 
 a {
   text-decoration: none;
   color: #fff;
+  margin-left: 1rem;
 }
 
 .randominfo{
