@@ -90,6 +90,15 @@ a {
 
 .quotesection{
   background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
+  padding-left: 22rem;
+  padding-right: 22rem;
+  align-items: flex-end;
+}
+
+.quoteby{
 }
 
 .abox {
@@ -134,4 +143,12 @@ h4{
 }
 .callbar > button{
   border: 3px solid  #fff;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #1F2937;
+  color: #E5E7EB;
 }
